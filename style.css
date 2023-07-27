@@ -1,0 +1,64 @@
+:root {
+    --dark-Violet: hsl(256, 26%, 20%);
+    --Grayish-Blue: hsl(216, 30%, 68%);
+    --Very-Dark-Violet: hsl(270, 9%, 17%);
+   --Dark-Grayish-Violet: hsl(273, 4%, 51%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+.text-dgv {
+    color: var(--Dark-Grayish-Violet);
+}
+nav a{
+    color: var(--Dark-Grayish-Violet);
+}
+.section1{
+    background-color: var(--dark-Violet);
+    color: var(--Very-Light-Gray);
+}
+
+.human{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.section1 h1{
+    font-size: 40px;
+}
+.section1 p{
+    line-height: 25px;
+}
+.section1 img{
+    width: 100%;
+}
+
+@media(width > 768px) {
+    .section1 img{
+        position: absolute;
+        right: 5%;
+        bottom: -20%;
+        width: 40%;
+        max-width: 360px;
+    }
+    .section1 div{
+        width: 50%;
+    }
+}
+
+/* ============================================================= */
+.section2 {
+    padding: 100px 0;
+}
+.section2 h2{
+    font-size: 40px;
+}
+
+/* =================================================================== */
+
+.section3 div {
+    background-color: var(--dark-Violet);
+    color: var(--Very-Light-Gray);
+    width: 90%;
+}
+.section3 h2{
+    font-size: 34px;
+}
